@@ -78,7 +78,7 @@ this logic:
   /* 10) To make this calculator more helpful, add the hours the user is over or under their ideal sleep in each log statement in calculateSleepDebt(). */
   
   If (actualSleepHours === idealSleepHours) {
-    console.log(`You got perfect amount of ${ actualSleepHours } of sleep`);
+    console.log(`You got perfect amount of ${ actualSleepHours }hours of sleep`);
   } else if (actualSleepHours > idealSleepHours) {
    console.log(`You slept ${ actualSleepHours - idealSleepHours } more hours. You got more sleep than needed`);
   } else {
