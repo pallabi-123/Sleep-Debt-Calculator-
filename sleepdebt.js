@@ -84,7 +84,11 @@ this logic:
   } else {
    Console.log(`You slept ${ idealSleepHours - actualSleepHours } hours. You should get some rest`)
   }
-} 
+} ;
+
+/* 11) On the last line of the program, start the program by calling the calculateSleepDebt() function.*/
+
+calculateSleepDebt();
 
 
 
