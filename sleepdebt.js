@@ -67,12 +67,22 @@ this logic:
 •	If the actual sleep is greater than the ideal sleep, log to the console that the user got more sleep than needed.
 •	If the actual sleep is less than the ideal sleep, log to the console that the user should get some rest.*/
   
-  If (actualSleepHours === idealSleepHours) {
+ /* If (actualSleepHours === idealSleepHours) {
     console.log(‘You got perfect amount of sleep’);
   } else if (actualSleepHours > idealSleepHours) {
    console.log(‘You got more sleep than needed’);
   } else {
    Console.log(‘You should get some rest’)
+  }*/
+  
+  /* 10) To make this calculator more helpful, add the hours the user is over or under their ideal sleep in each log statement in calculateSleepDebt(). */
+  
+  If (actualSleepHours === idealSleepHours) {
+    console.log(`You got perfect amount of ${ actualSleepHours } of sleep`);
+  } else if (actualSleepHours > idealSleepHours) {
+   console.log(`You slept ${ actualSleepHours - idealSleepHours } more hours. You got more sleep than needed`);
+  } else {
+   Console.log(`You slept ${ idealSleepHours - actualSleepHours } hours. You should get some rest`)
   }
 } 
 
