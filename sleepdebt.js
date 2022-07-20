@@ -82,7 +82,7 @@ this logic:
   } else if (actualSleepHours > idealSleepHours) {
    console.log(`You slept ${ actualSleepHours - idealSleepHours } more hours. You got more sleep than needed`);
   } else {
-   Console.log(`You slept ${ idealSleepHours - actualSleepHours } hours. You should get some rest`)
+   Console.log(`You slept ${ idealSleepHours - actualSleepHours } hours less. You should get some rest`)
   }
 } ;
 
