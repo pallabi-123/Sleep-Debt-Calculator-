@@ -53,6 +53,29 @@ Const getIdealsleepHours = () => {
 /* 7) Test your two new functions by calling them and printing the results to the console. You can remove the tests when you know your functions works.*/
 console.log(getIdealsleepHours());
 
+/* 8) Now that you can get the actual sleep hours and the ideal sleep hours. It’s time to calculate sleep debt. Create a function named calculateSleepDebt with no
+parameters. Inside of its block, create a variable named actualSleepHours set equal to the getActualSleepHours() function call. Then, create another variable named
+idealSleepHours, set equal to the getIdealSleepHours() function call.  */
+
+const calculateSleepDebt = () => {
+   const actualSleepHours = getActualSleepHours();
+    const idealSleepHours =  getIdealSleepHours();
+  
+/* 9) Now that you have actualSleepHours and idealSleepHours, You can write a few if/else statements to output the result to the console. The function should fulfil 
+this logic:
+•	If actual sleep equals ideal sleep, log to the console that the user got the perfect amount of sleep.
+•	If the actual sleep is greater than the ideal sleep, log to the console that the user got more sleep than needed.
+•	If the actual sleep is less than the ideal sleep, log to the console that the user should get some rest.*/
+  
+  If (actualSleepHours === idealSleepHours) {
+    console.log(‘You got perfect amount of sleep’);
+  } else if (actualSleepHours > idealSleepHours) {
+   console.log(‘You got more sleep than needed’);
+  } else {
+   Console.log(‘You should get some rest’)
+  }
+} 
+
 
 
 
